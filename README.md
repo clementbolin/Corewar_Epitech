@@ -8,7 +8,8 @@ The earliest published version of Redcode defined only eight instructions. The I
 
 ## Project
 
-we had to realize this project during our first year. 
+we had to realize this project during our first year.
+We develop this project in 1 week with team of 4.
 This project is composed of two parts the **vm** and the **asm**
 
 ## Download
