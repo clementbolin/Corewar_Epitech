@@ -76,19 +76,19 @@ and stores the result into the third one (which must be a register). and r2, %0,
 9. *0x09 (zjmp)* takes 1 parameter, which must be an index. It jumps to this index if the carry is worth 1.
 Otherwise, it does nothing but consumes the same time. :x:
 
-10. *0x0a (ldi)* takes 3 parameters. The first two must be indexes, the third one must be a register. :white_check_mark:
+10. **0x0a (ldi)** takes 3 parameters. The first two must be indexes, the third one must be a register. :white_check_mark:
 
-11. *0x0b (sti)* takes 3 parameters. The first one must be a register. The other two can be indexes or registers. :white_check_mark:
+11. **0x0b (sti)** takes 3 parameters. The first one must be a register. The other two can be indexes or registers. :white_check_mark:
 
-12. *0x0c (fork)* takes 1 parameter, which must be an index. It creates a new program that inherits different statesfromtheparent. :x:
+12. **0x0c (fork)** takes 1 parameter, which must be an index. It creates a new program that inherits different statesfromtheparent. :x:
 
-13. *0x0d (lld)* Similar to ld :white_check_mark:
+13. **0x0d (lld)** Similar to ld :white_check_mark:
 
-14. *0x0e (lldi)* Similar to ldi :white_check_mark:
+14. **0x0e (lldi)** Similar to ldi :white_check_mark:
 
-15. *0x0f (lfork)* Similar to fork :x:
+15. **0x0f (lfork)** Similar to fork :x:
 
-16. *0x10 (aff)* takes 1 parameter, which must be a register. It displays on the standard output the character whose ASCII code 
+16. **0x10 (aff)** takes 1 parameter, which must be a register. It displays on the standard output the character whose ASCII code 
 is the content of the register (in base 10). :white_check_mark:
 
 # TEAM
