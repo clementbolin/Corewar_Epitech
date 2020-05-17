@@ -88,7 +88,7 @@ Otherwise, it does nothing but consumes the same time. :x:
 
 15. **0x0f (lfork)** Similar to fork :x:
 
-16. **0x10 (aff)** takes 1 parameter, which must be a register. It displays on the standard output the character whose ASCII code 
+16. ***0x10 (aff)*** takes 1 parameter, which must be a register. It displays on the standard output the character whose ASCII code 
 is the content of the register (in base 10). :white_check_mark:
 
 # TEAM
